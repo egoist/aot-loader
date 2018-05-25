@@ -99,6 +99,15 @@ function (exported, context) {
 
 The `context` argument in `getData`.
 
+Default:
+
+```js
+{
+  loader: LoaderContext
+}
+```
+
+Check out the [LoaderContext](https://webpack.js.org/api/loaders/#the-loader-context) API.
 
 ## Contributing
 

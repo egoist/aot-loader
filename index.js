@@ -10,7 +10,9 @@ module.exports = async function (source) {
 
   const done = this.async()
   const options = getOptions(this) || {}
-  const context = options.context
+  const context = Object.assign({}, options.context, {
+    loader: this
+  })
   const getData = options.getData || defaultGetData
 
   try {
