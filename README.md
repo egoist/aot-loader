@@ -5,7 +5,7 @@
 
 __This is similar to [babel-plugin-preval](https://github.com/kentcdodds/babel-plugin-preval) except that this is a webpack loader, which means you can write asynchronous code but import the resolved data synchronously.__
 
-__It's also similar to [val-loader](https://github.com/webpack-contrib/val-loader) but this loader returns resolved data as JSON object directory.__
+__It's also similar to [val-loader](https://github.com/webpack-contrib/val-loader) but this loader returns resolved data as JSON object directly.__
 
 ## Install
 
