@@ -99,9 +99,6 @@ function (exported, context) {
 
 The `context` argument in `getData`.
 
-#### context
-
-Inject
 
 ## Contributing
 
